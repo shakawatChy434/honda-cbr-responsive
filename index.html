@@ -70,28 +70,48 @@
                                     consequat duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet.
                                 </p>
                                 <!-- <a href="#">Purchase</a> -->
-                                <button class="btn purchase-btn" type="button" data-bs-toggle="offcanvas"
-                                    data-bs-target="#offcanvasTop" aria-controls="offcanvasTop">
-                                    Purchase</button>
+                                <!-- modal-part-start  -->
+                                <!-- Button trigger modal -->
+                                <button type="button" class="btn purchase-btn" data-bs-toggle="modal"
+                                    data-bs-target="#exampleModal">
+                                    Purchase
+                                </button>
 
-                                <div class="offcanvas offcanvas-top bg-primary" tabindex="-1" id="offcanvasTop"
-                                    aria-labelledby="offcanvasTopLabel">
-                                    <div class="offcanvas-header">
-                                        <h5 id="offcanvasTopLabel">
-                                            Dear sir,<br> You must be followed our purchase rules.
-                                        </h5>
-                                        <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas"
-                                            aria-label="Close"></button>
-                                    </div>
-                                    <div class="offcanvas-body">
-                                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Commodi vitae
-                                            animi sequi velit, saepe voluptate? Id, consequuntur enim commodi
-                                            similique nisi explicabo molestiae! Iusto, corporis? Inventore minus
-                                            placeat ipsum maiores, reprehenderit accusamus hic esse fugit atque
-                                            aliquam labore sit vitae quas fugiat aspernatur ea eaque, ducimus error
-                                            veniam? Quasi, repudiandae?</p>
+                                <!-- Modal -->
+                                <div class="modal fade" id="exampleModal" tabindex="-1"
+                                    aria-labelledby="exampleModalLabel" aria-hidden="true">
+                                    <div class="modal-dialog">
+                                        <div class="modal-content">
+                                            <div class="modal-header">
+                                                <h5 class="modal-title" id="exampleModalLabel">Our Perchase Terms</h5>
+                                                <button type="button" class="btn-close" data-bs-dismiss="modal"
+                                                    aria-label="Close"></button>
+                                            </div>
+                                            <div class="modal-body">
+                                                <!-- modals-text  -->
+                                                Not to be confused with Compulsory Purchase Order. <br><br>
+                                                An example of a purchase order request from a travel agent.<br>
+                                                A purchase order (PO) is a commercial document and first official offer
+                                                issued by a buyer to a seller indicating types, quantities, and agreed
+                                                prices for products or services. It is used to control the purchasing of
+                                                products and services from external suppliers.[1] Purchase orders can be
+                                                an essential part of enterprise resource planning system orders.<br>
+                                                Indent is a purchase order often placed through an agent (indent agent)
+                                                under specified conditions of sale.[2]<br>
+                                                The issue of a purchase order does not itself form a contract. <br>If no
+                                                prior contract exists, then it is the acceptance of the order by the
+                                                seller that forms a contract between the buyer and seller.
+                                                <!-- modals-end. -->
+                                            </div>
+                                            <div class="modal-footer">
+                                                <button type="button" class="btn btn-secondary"
+                                                    data-bs-dismiss="modal">Close</button>
+                                                <button type="button" class="btn btn-primary">Save changes</button>
+                                            </div>
+                                        </div>
                                     </div>
                                 </div>
+                                <!-- modal-part-end -->
                             </div>
                         </div>
 

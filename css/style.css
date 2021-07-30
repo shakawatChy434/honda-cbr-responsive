@@ -2,7 +2,6 @@ body{
     margin: 0;
     padding: 0;
     outline: 0;
-    margin-bottom: 600px;
 }
 ul{
     list-style: none;
@@ -123,7 +122,7 @@ button.purchase-btn{
 
 /* latest-bike-part-start  */
 .fetured-img img{
-    filter: grayscale(50%);
+    filter: grayscale(90%);
 }
 .latest-bike-img img{
     width:auto;
