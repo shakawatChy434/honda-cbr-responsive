@@ -11,6 +11,9 @@ a{
     text-decoration: none;
     text-transform: capitalize;
 }
+h1{
+    text-transform: capitalize;
+}
 /* Menu-part-end.  */
 .navbar-light .navbar-nav .nav-link{
     color: #FFFFFF;
@@ -44,9 +47,7 @@ button.purchase-btn{
     padding: 0 !important;
     margin: 0 !important;
 }
-
 /* Menu-part-start  */
-
 /* Banner-part-start  */
     .banner-part{
         padding-top: 100px;
@@ -82,10 +83,8 @@ button.purchase-btn{
     display: inline-block;
 }
 /* Banner-part-end.  */
-
 /* Fetured-part-start  */
 /* header-text-part-start  */
-
 .head-text h1{
     color: #000000;
     font-size: 48px;
@@ -119,7 +118,6 @@ button.purchase-btn{
  }
  /* bike-part-end. */
 /* Fetured--part-end. */
-
 /* latest-bike-part-start  */
 .fetured-img img{
     filter: grayscale(90%);
@@ -165,7 +163,6 @@ button.purchase-btn{
 .latest-bike-text a:hover{
     color: #FFFFFF;
     background: #E76F51;
-
 }
 /* latest-bike-part-end. */
 /* clients-part-start  */
@@ -210,10 +207,27 @@ h5.position{
 }
 /* service-part-end. */
 
+/* our-shop-part-start */
+.shop-card{
+    margin:0 10px;
+}
+/* our-shop-part-end. */
+
+/* followers-desh-board-start  */
+.follower-img img{
+    width: 100px;
+    height: 70px;
+}
+.follower-img h1{
+    color: #252B42;
+    font-size: 24px;
+    font-weight: 400;
+    font-family: 'Lobster', cursive;
+}
+/* followers-desh-board-end. */
 /* footer-part-start  */
 .footer-bg{
     background: #0B0D17;
-  
 }
 .footer-text h5{
     color: #FFFFFF;
@@ -257,9 +271,4 @@ h5.position{
     width: 100px;
     height: 100px;
 }
-
-
 /* footer-part-end. */
-
-/* font-family: 'Manrope', sans-serif;
-font-family: 'Poppins', sans-serif; */
