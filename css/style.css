@@ -33,6 +33,7 @@ h1{
 .btn-login a{
     background-color: #E76F51 !important;
     align-items: center;
+    border-radius: 5px;
 }
 button.purchase-btn{
     color: #FFFFFF;
