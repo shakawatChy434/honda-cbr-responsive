@@ -120,7 +120,7 @@ button.purchase-btn{
 /* Fetured--part-end. */
 /* latest-bike-part-start  */
 .fetured-img img{
-    filter: grayscale(90%);
+    filter: grayscale(10%);
 }
 .latest-bike-img img{
     width:auto;
