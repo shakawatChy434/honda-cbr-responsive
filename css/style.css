@@ -213,7 +213,16 @@ h5.position{
     margin:0 10px;
 }
 /* our-shop-part-end. */
-
+/* our-brand-part-start  */
+.brand-img img{
+    height: 200px;
+    width: 200px;
+}
+.tvs-img img{
+    filter: grayscale(50%);
+    height: 100px;
+}
+/* our-brand-part-end. */
 /* followers-desh-board-start  */
 .follower-img img{
     width: 100px;
@@ -226,6 +235,37 @@ h5.position{
     font-family: 'Lobster', cursive;
 }
 /* followers-desh-board-end. */
+/* subscribe-part-start  */
+.form-details{
+    background: #0B0D17;
+    height: 200px;
+    
+}
+.form-info{
+    padding-top: 50px;
+}
+.form-header h1{
+    color: #FFFFFF;
+}
+.form-part{
+    width:60%;
+    height: 50px;
+    justify-content: center;
+    align-items: center;
+}
+.btn-info{
+    color: #FFFFFF;
+    font-size: 16px;
+    font-weight: 400;
+    font-family: 'Manrope', sans-serif;
+    background: #000;
+    border: 2px solid gray;
+    border-radius: 5px;
+    height: 45px;
+    padding: 0 20px;
+}
+/* subscribe-part-end. */
+
 /* footer-part-start  */
 .footer-bg{
     background: #0B0D17;
